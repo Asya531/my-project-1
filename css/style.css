@@ -1,0 +1,21 @@
+@import "./global.css";
+@import "./style.carousel.css";
+@import "./style.css";
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px; /* однакова відстань між словами */
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+.nav__link {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+}

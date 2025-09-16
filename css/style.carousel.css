@@ -1,0 +1,24 @@
+.presentation {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 */
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(63, 69, 81, 0.16);
+}
+
+.presentation iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  filter: var(--image-filter-grayscale);
+  transition: filter var(--image-transition-duration) ease-out;
+}
