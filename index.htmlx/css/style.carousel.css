@@ -7,7 +7,7 @@
   box-shadow: 0 2px 8px rgba(63, 69, 81, 0.16);
 }
 
-.presentation iframe {
+.presentation__iframe {
   position: absolute;
   top: 0;
   left: 0;
